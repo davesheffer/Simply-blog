@@ -2,6 +2,7 @@ import { client, urlFor } from "./lib/sanity";
 import { postCard } from "./lib/intefaces";
 import Image from "next/image";
 import Link from "next/link";
+
 async function getData() {
 	const query = `
   *[_type =='posts'] | order(_createdAt desc) {
@@ -17,6 +18,7 @@ async function getData() {
 
 export default async function Home() {
 	const data: postCard[] = await getData();
+
 
 	return (
 		<div className="max-w-7xl m-auto">

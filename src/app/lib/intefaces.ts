@@ -3,5 +3,6 @@ export interface postCard {
     slug: string;
     postSmallDescription: string;
     postImage: any
+    postContent: any
 
 }

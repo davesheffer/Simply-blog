@@ -1,6 +1,6 @@
 export default {
-    name: 'yair',
-    title: 'Yair',
+    name: 'yairs',
+    title: 'Yairs',
     type: 'document',
     fields: [
       {
